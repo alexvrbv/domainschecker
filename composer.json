@@ -1,0 +1,5 @@
+{
+  "require": {
+    "mabrahamde/idna-converter": "dev-master"
+  }
+}

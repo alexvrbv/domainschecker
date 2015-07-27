@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "2c358bb934a2526cff737360a165a2c7",
+    "packages": [
+        {
+            "name": "mabrahamde/idna-converter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mabrahamde/php-idna-converter.git",
+                "reference": "8bc7b0516564e40ec137f3b6c7b5f1b69a4fce64"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mabrahamde/php-idna-converter/zipball/8bc7b0516564e40ec137f3b6c7b5f1b69a4fce64",
+                "reference": "8bc7b0516564e40ec137f3b6c7b5f1b69a4fce64",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/phlylabs/idna_convert.class.php",
+                    "src/phlylabs/uctc.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Martin Abraham",
+                    "email": "dev@mabraham.de",
+                    "homepage": "http://mabraham.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Converts domain names between UTF-8 and ASCII (punycode) notation. This is a fork of phlyLabs' pure PHP IDNA Converter",
+            "keywords": [
+                "domain",
+                "encode",
+                "idn",
+                "idna",
+                "lib"
+            ],
+            "time": "2013-12-05 18:00:20"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "mabrahamde/idna-converter": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

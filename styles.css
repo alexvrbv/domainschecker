@@ -1,0 +1,20 @@
+.today {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+}
+table tr{
+    background-color: #a3ffe1;
+}
+table tr:first-child {
+    background-color: #fbffa3;
+}
+table td {
+    border: 1px solid #000000;
+    padding: 5px;
+}
+.red {
+    background-color: #fcbaba;
+}
